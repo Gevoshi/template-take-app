@@ -1,0 +1,365 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+}
+.container {
+    max-width: 1920px;
+    margin: 0px auto;
+}
+.headerDiv {
+    width: 100%;
+}
+.imageHeader {
+    width: 100%;
+    height: auto;
+}
+.takephotosDiv {
+    width: 35%;
+    position: absolute;
+    top: 43%;
+    left: 1%;
+    background-color: black;
+    padding: 10px 30px;
+    max-width: 265px;
+    opacity: 0.6;
+    border-radius: 10px;
+    
+}
+.takephotosDiv:hover {
+    opacity: 1;
+}
+.takePhotos {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.superSimple {
+    color: white;
+    text-align: center;
+}
+.buttonDownload {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    padding: 6px 50px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.buttonDownloadDisable {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 0px auto;
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+
+}
+.buttonDownloadDisable:hover {
+    background-color: silver;
+    color: black;
+}
+.buttonDownload:hover {
+    background-color: silver;
+    color: black;
+}
+.takeTour {
+    position: absolute;
+    top: 63%;
+    right: 1%;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+.takeTour:hover {
+    background-color: silver;
+    color:black;
+    border: 0px;
+}
+.theAppMainDiv {
+    background-color: white;
+    display: flex;
+    padding: 50px 20px;
+}
+.theApp {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.whyBuy {
+    font-size: 48px;
+    font-weight: 500;
+    color: #4CAF50;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.span1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.buttonDownload2 {
+    padding: 12px 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: none;
+    font-size: 16px;
+}
+.buttonDownload2:hover {
+    background-color: silver;
+}
+.clarityMainDiv {
+    background-color: #f1f1f1;
+    display: flex;
+    margin-bottom: 0px;
+}
+.image3Div {
+    padding: 70px 15px;
+}
+.clarity {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.pixels {
+    font-size: 48px;
+    color: #f44336;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+.span2 {
+    font-size: 24px;
+}
+.featuresMainDiv {
+    width: 100%;
+    background-color: #616161;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+.features {
+    font-weight: bolder;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.thisApp {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.elementsMainDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 70px;
+    
+}
+.pricingMainDiv {
+    background-color: white;
+}
+.pricing {
+    color: black;
+    font-size: 64px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.chooseAPricing {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+}
+.gnerMainDiv {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+}
+.basicMainDiv {
+    transition: all 300ms;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    margin: 0px 0px;
+    max-width: 485px;
+    width: 90%;
+}
+.basicMainDiv:hover {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 36%), 0 2px 10px 0 rgb(0 0 0 / 32%);
+}
+.premiumMainDiv {
+    transition: all 300ms; 
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    margin: 0px 0px;
+    max-width: 485px;
+    width: 90%;
+}
+.premiumMainDiv:hover {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 36%), 0 2px 10px 0 rgb(0 0 0 / 32%);
+}
+.basic {
+    background-color: #616161;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    padding: 10px 0px;
+}
+.premium {
+    background-color: #F44336;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    padding: 10px 0px;
+}
+.standart {
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px 0px;
+    border-top: 1px ridge #DDDDDD ;
+}
+.bold {
+    font-weight: bold;
+}
+.gniDiv {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    padding: 0px 0px;
+    color: #656565;
+    border-top: 1px ridge #DDDDDD ;
+    border-bottom: 1px ridge #DDDDDD ;;
+}
+.buttonDiv3 {
+    width: 100%;
+    padding: 23px 0px;
+    background-color: #F1F1F1;
+}
+.button3 {
+    display: block;
+    margin: 0px auto;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+.button3:hover {
+    background-color: silver;
+    color: black;
+    border: none;
+}
+.footerDiv {
+    background-color: #F1F1F1;
+    padding: 70px 0px;
+}
+.footerIcon {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    gap: 6px;
+}
+.facebookHover:hover {
+    opacity: 0.60;
+}
+.instagramHover:hover {
+    opacity: 0.60;
+}
+.snapchatHover:hover {
+    opacity: 0.60;
+}
+.pinterestHover:hover {
+    opacity: 0.60;
+}
+.twitterHover:hover {
+    opacity: 0.60;
+}
+.linkedinHover:hover {
+    opacity: 0.60;
+}
+.footerText {
+    text-align: center;
+}
+.hghum {
+    color: black;
+}
+.hghum:hover {
+    color: #4CAF50;
+}
+@media (max-width:1920px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+@media (max-width:1200px){
+    .container {
+        max-width: 970px;
+    }
+}
+@media (max-width:992px){
+    .container {
+        max-width: 750px;
+    }
+    .gnerMainDiv {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .theAppMainDiv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;
+    }
+    .theAppDiv {
+        text-align: center;
+    }
+    .clarityMainDiv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .clarityDiv {
+        text-align: center;
+    }
+}
+@media (max-width:767px){
+    .container {
+        max-width: none;
+    }
+    .elementsMainDiv {        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        row-gap: 70px;
+    }
+    .takephotosDiv {
+        display: none;
+    }
+    .takeTour {
+        top: 40%;
+        right: 1%;
+    }
+    .image2 {
+        max-width: 269px;
+    }
+    .image3 {
+        max-width: 269px;
+        padding: 0px 0px;
+    }
+    .buttonDownloadDisable {
+        display: block;
+    }
+}
